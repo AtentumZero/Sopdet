@@ -7,7 +7,7 @@ def help():
     print "[!] Usage: sopdet.py <server> <port> <linux/windows>"
 
 def successful():
-    print "[*] Sobdet client connected to %s" % server
+    print "[*] Sopdet client connected to %s" % server
 
 def unsuccessful():
     print "[!] Unable to connect to port %s on remote server!" % port
