@@ -4,13 +4,13 @@ import os, socket, subprocess, threading, sys;
 
 # Errors & Messages
 def help():
-    print "[!] Usage: sopdet.py <server> <port> <linux/windows>"
+    print("[!] Usage: sopdet.py <server> <port> <linux/windows>")
 
 def successful():
-    print "[*] Sopdet client connected to %s" % server
+    print("[*] Sopdet client connected to %s" % server)
 
 def unsuccessful():
-    print "[!] Unable to connect to port %s on remote server!" % port
+    print("[!] Unable to connect to port %s on remote server!" % port)
 
 # Unrecognised command
 if len(sys.argv[1:]) != 3:
@@ -64,7 +64,7 @@ def p2s(s, p):
 try:
 	if system == "windows":
 	       win()
-        elif system == "linux":
+	elif system == "linux":
                linux()
 
 except KeyboardInterrupt:
